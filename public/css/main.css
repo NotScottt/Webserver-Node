@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, sans-serif;
+}
+
+#mainH {
+    text-align: center;
+    padding: 10px;
+}
+
+#linkButton {
+    border: none;
+}
