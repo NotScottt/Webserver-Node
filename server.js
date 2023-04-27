@@ -13,9 +13,7 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('/about', function (req, res) {
-    res.sendFile(path.join(__dirname, '/views/about.html'));
-});
-
+app.get('/about', function (req, res) {res.sendFile(path.join(__dirname, '/views/about.html'));});
+app.get('/about/test', function (req, res) {res.sendFile(path.join(__dirname, '/views/test.html'));});
 
 app.listen(port, () => console.info(`Server listening on http://localhost:${port}`))

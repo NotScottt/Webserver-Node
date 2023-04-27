@@ -3,11 +3,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#mainH {
+h1 {
     text-align: center;
     padding: 10px;
 }
 
-#linkButton {
+button {
     border: none;
+    background-color: transparent;
+}
+
+div {
+    text-align: center;
 }
