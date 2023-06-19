@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scotts Sandbox</title>
+</head>
+<body>
+</body>
+<script>
+    function smiley(x, y) {
+    moveTo(x, y);
+    color("yellow");
+    circle(0, 0, 50);
+    color("black");
+    circle(-20, 10, 7);
+    circle(20, 10, 7);
+    lineWidth(3);
+    path("g -20 -10 q 20 -10 0 -50 c");
+    goBack();
+}
+
+smiley(0, 0);
+smiley(-100, 20);
+smiley(100, 50);
+
+</script>
+</html>
